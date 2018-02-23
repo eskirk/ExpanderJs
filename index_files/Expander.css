@@ -1,0 +1,45 @@
+.expander {
+   width: 300px;
+   font-size: 20px;
+}
+
+.active {
+   background-color: lightgreen;
+}
+
+.inactive {
+   background-color: lightcoral;
+}
+
+.hidden {
+   display: none;
+}
+
+.narrow {
+   width: 20em;
+}
+
+.arrow {
+   width: 20px;
+   margin: 0px;
+}
+
+.big {
+   font-size: 150%;
+}
+
+.expander + div {
+   margin-left: 10px;
+}
+
+#root1 {
+   border: solid 1px blue;
+}
+
+#root3 {
+   border: solid 1px blue;
+}
+
+#root4 {
+   border: solid 1px blue;
+}
